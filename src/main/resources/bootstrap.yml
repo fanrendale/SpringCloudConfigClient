@@ -7,3 +7,7 @@ spring:
       profile: dev
       fail-fast: true
       uri: http://localhost:13801
+      #通过服务名访问配置中心服务端,没有成功
+#      discovery:
+#        enabled: true
+#        service-id: config-server
